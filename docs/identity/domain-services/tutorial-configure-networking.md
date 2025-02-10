@@ -132,7 +132,7 @@ For VMs and applications in the peered virtual network to successfully talk to t
 
 In this tutorial, let's configure the Azure virtual network DNS servers to direct all queries to the Domain Services domain controllers.
 
-1. In the Microsoft Entra admin center, select the resource group of the peered virtual network, such as *myResourceGroup*. From the list of resources, choose the peered virtual network, such as *myVnet*.
+1. In the Azure Portal, select the resource group of the peered virtual network, such as *myResourceGroup*. From the list of resources, choose the peered virtual network, such as *myVnet*.
 1. In the left-hand menu of the virtual network window, select **DNS servers**.
 1. By default, a virtual network uses the built-in Azure-provided DNS servers. Choose to use **Custom** DNS servers. Enter the IP addresses for the Domain Services domain controllers, which are usually *10.0.2.4* and *10.0.2.5*. Confirm these IP addresses on the **Overview** window of your managed domain in the portal.
 
